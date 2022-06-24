@@ -36,8 +36,47 @@ const reducer = (state, action) => {
 export const DiaryStateContext = React.createContext();
 export const DiaryDispatchContext = React.createContext();
 
+const dummyData = [
+  {
+    id: 1,
+    emtion: 1,
+    content: "오늘의일기1번",
+    date: 1656041277804,
+  },
+  {
+    id: 2,
+    emtion: 2,
+    content: "오늘의일기2번",
+    date: 1656041277805,
+  },
+  {
+    id: 3,
+    emtion: 3,
+    content: "오늘의일기3번",
+    date: 1656041277806,
+  },
+  {
+    id: 4,
+    emtion: 4,
+    content: "오늘의일기4번",
+    date: 1656041277807,
+  },
+  {
+    id: 5,
+    emtion: 5,
+    content: "오늘의일기5번",
+    date: 1656041277808,
+  },
+  {
+    id: 6,
+    emtion: 5,
+    content: "오늘의일기6번",
+    date: 1556041277808,
+  },
+];
+
 function App() {
-  const [data, dispatch] = useReducer(reducer, []);
+  const [data, dispatch] = useReducer(reducer, dummyData);
 
   const dataId = useRef(0);
 
