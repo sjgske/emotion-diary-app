@@ -39,31 +39,31 @@ export const DiaryDispatchContext = React.createContext();
 const dummyData = [
   {
     id: 1,
-    emtion: 1,
+    emotion: 1,
     content: "오늘의일기1번",
     date: 1656041277804,
   },
   {
     id: 2,
-    emtion: 2,
+    emotion: 2,
     content: "오늘의일기2번",
     date: 1656041277805,
   },
   {
     id: 3,
-    emtion: 3,
+    emotion: 3,
     content: "오늘의일기3번",
     date: 1656041277806,
   },
   {
     id: 4,
-    emtion: 4,
+    emotion: 4,
     content: "오늘의일기4번",
     date: 1656041277807,
   },
   {
     id: 5,
-    emtion: 5,
+    emotion: 5,
     content: "오늘의일기5번",
     date: 1656041277808,
   },
